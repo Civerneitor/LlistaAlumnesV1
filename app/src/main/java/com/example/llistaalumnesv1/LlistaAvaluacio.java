@@ -18,7 +18,7 @@ public class LlistaAvaluacio {
 
     private LlistaAvaluacio(Context context){
         avaluacioList = new ArrayList<>();
-
+        //Llista de usuaris inicial.
         avaluacioList.add(new Avaluacio("1011", 1, new Alumne("Sergio","Junqueres",46121234)));
         avaluacioList.add(new Avaluacio("1011", 1, new Alumne("Carla","Mate",46121284)));
         avaluacioList.add(new Avaluacio("1011", 4, new Alumne("Pol","Sanchez",46128234)));
